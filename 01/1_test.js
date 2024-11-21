@@ -1,0 +1,1 @@
+console.log("Hello") // allows you to output messages or values to the console //
