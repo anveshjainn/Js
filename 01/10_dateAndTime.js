@@ -23,6 +23,22 @@ console.log(myCreatedDate);
 console.log(myCreatedDate.toDateString());
 //In js date months starts from 0. i.e jan = 0, feb = 1.
 
+// You can also declare any specific time with date
+let myDateTime = new Date(2020, 3, 18, 6, 7)
+console.log(myDateTime.toLocaleString());
+
+// We can also declare date in an specific format.
+let specificFormat = new Date("01-14-2021")
+console.log(specificFormat.toLocaleString());
+
+
+// We can also have and check timestamps in js.
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
+console.log(myTimeStamp.toLocaleString());
+
+
+
 
 
 
