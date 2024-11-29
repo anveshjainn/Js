@@ -37,6 +37,8 @@ let myTimeStamp = Date.now()
 console.log(myTimeStamp);
 console.log(myTimeStamp.toLocaleString());
 
+const fgh = 12
+
 
 
 
