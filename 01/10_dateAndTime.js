@@ -35,7 +35,6 @@ console.log(specificFormat.toLocaleString());
 // We can also have and check timestamps in js.
 let myTimeStamp = Date.now()
 console.log(myTimeStamp);
-const vca = 12
 console.log(myTimeStamp.toLocaleString());
 
 
